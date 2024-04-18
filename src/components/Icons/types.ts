@@ -15,7 +15,7 @@ export type IconProps = Omit<SvgProps, "color" | "onPress"> & {
     /** Height value */
     height?: number | string;
     /** A valid color for Astro's colors */
-    color?: Colors[keyof Colors];
+    color?: Colors[keyof Colors] | string;
     /** Size value. This value will be used as icon's width and height internally */
     size?: number;
     /** Called when a single tap gesture is detected */
