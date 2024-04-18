@@ -85,7 +85,7 @@ export function getIcon(_iconName: string) {
     const iconName = `${_iconName}Icon`;
 
     if (Object.keys(icons).includes(iconName)) {
-        return (icons as { [key: string]: Function })[iconName];
+        return icons[iconName as keyof typeof icons];
     }
 
     return () => null;
