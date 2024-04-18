@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@magnetis/astro-galaxy-tokens": "^1.2.3",
+    "@magnetis/astro-tokens": "^0.0.11",
     "expo": "~50.0.14",
     "expo-status-bar": "~1.11.1",
     "react": "18.2.0",
