@@ -3,6 +3,9 @@
     "compilerOptions": {
         "strict": true,
         "baseUrl": ".",
-        "paths": {}
+        "paths": {
+            "@components/*": ["./src/components/*"],
+            "@tokens/*": ["./src/tokens/*"]
+        }
     }
 }

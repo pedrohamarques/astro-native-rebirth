@@ -6,7 +6,10 @@ module.exports = function (api) {
             [
                 "module-resolver",
                 {
-                    alias: {},
+                    alias: {
+                        "@components": "./src/components",
+                        "@tokens": "./src/tokens",
+                    },
                 },
             ],
         ],
