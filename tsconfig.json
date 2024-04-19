@@ -2,11 +2,13 @@
     "extends": "expo/tsconfig.base",
     "compilerOptions": {
         "strict": true,
-        "baseUrl": ".",
+        "typeRoots": ["typings", "node_modules/@types"],
+        "baseUrl": "./",
         "paths": {
-            "@components/*": ["./src/components/*"],
-            "@tokens/*": ["./src/tokens/*"],
-            "@typings/*": ["./typings/*"]
+            "@components/*": ["src/components/*"],
+            "@tokens/*": ["src/tokens/*"],
+            "@typings/*": ["typings/*"],
+            "@root/*": ["./*"]
         }
     }
 }
